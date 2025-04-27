@@ -1,57 +1,24 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Exemplo simples de estilo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #2c3e50; /* azul-marinho */
+    background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
 }
 
-header input[type="text"] {
-    padding: 10px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 60%;
-    max-width: 400px;
-}
-
-/* Corpo central */
-main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
 }
 
 .conteudo-central {
     text-align: center;
-    background-color: #e0e0e0; /* cinza claro */
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Rodapé */
-footer {
-    background-color: #34495e; /* azul-marinho mais claro */
-    color: white;
-    text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
